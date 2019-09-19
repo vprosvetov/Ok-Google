@@ -1,0 +1,51 @@
+.container {
+    width: 900px;
+    height: auto;
+    background: #e1e1e1;
+    padding: 20px 0px;
+    overflow: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.choice {
+    color: #1d69a7;
+    margin-right: 20px;
+    border-bottom: 1px dashed;
+    
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+    line-height: 200px;
+    font-size: 100px;
+    color: #e1e1e1;
+    float: left;
+    background-color:#724734;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.text1 {
+    text-align: right;
+}
+.button {
+    margin-left: 10px;
+}
+.button2 {
+ float: right;
+ margin-right: 30px;
+ width: 18px;
+ height: 18px;
+ background-image: url("https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
+ background-position: right 230px bottom 15px;
+}
+.button3 {
+ float: right;
+ margin-right: 10px;
+ width: 18px;
+ height: 18px;
+ background-image: url("https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
+ background-position: right 254px bottom 15px;
+}
+
