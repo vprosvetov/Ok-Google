@@ -4,16 +4,13 @@
     background: #e1e1e1;
     padding: 20px 0px;
     overflow: auto;
-    
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
 }
 .span1, .span2 {
     color: #1d69a7;
-    
     border-bottom: 1px dashed;
-    
 }
 .one, .two, .three, .four, .five, .six, .seven, .eight {
     line-height: 200px;
@@ -39,7 +36,7 @@
  width: 18px;
  height: 18px;
  background-image: url("https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
- background-position: right 230px bottom 15px;
+ background-position: -216px -1px;
 }
 .button3 {
  float: right;
@@ -47,6 +44,5 @@
  width: 18px;
  height: 18px;
  background-image: url("https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
- background-position: right 254px bottom 15px;
+ background-position:-240px -1px;
 }
-

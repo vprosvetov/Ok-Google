@@ -6,13 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="scc/styles.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+        $( function() {
+          $( "#moving" ).sortable();
+          $( "#moving" ).disableSelection();
+        } );
+        </script>
 </head>
 <body>
     <div class="container">
         <div class="text1">
             <span>Сортировать по</span> <span class="span1"> возрастанию</span>  &#124  <span class="span2"> убыванию </span>
         </div>
-        <div>
+        <div id="moving">
                 <div class="one"> 1</div> 
                 <div class="two">2</div>
                 <div class="three"> 3 </div>
