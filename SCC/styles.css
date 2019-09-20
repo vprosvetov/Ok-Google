@@ -9,6 +9,7 @@
     margin-top: 100px;
 }
 .span1, .span2 {
+    text-decoration: none;
     color: #1d69a7;
     border-bottom: 1px dashed;
 }
@@ -55,8 +56,8 @@
     color: #e1e1e1;
     float: left;
     background-color:#937A66;
-    width: 200px;
-    height: 200px;
+    width: 198px;
+    height: 198px;
     margin: 10px;
     text-align: center;
     border:1px dashed black;
