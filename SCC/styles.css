@@ -1,6 +1,6 @@
 .container {
     width: 900px;
-    height: 700px;
+    height: auto;
     background: #e1e1e1;
     padding: 20px 0px;
     overflow: auto;
@@ -50,5 +50,39 @@
     background-color:brown;
 }
 .holder {
-    background-color: brown;
+    line-height: 200px;
+    font-size: 100px;
+    color: #e1e1e1;
+    float: left;
+    background-color:#937A66;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    border:1px dashed black;
+}
+.bigsize {
+    line-height: 420px;
+    font-size: 200px;
+    color: #e1e1e1;
+    float: left;
+    background-color:#724734;
+    width: 420px;
+    height: 420px;
+    margin: 10px;
+    text-align: center;
+}
+.bigsize .holder {
+    float: left;
+    background-color:#937A66;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    border:1px dashed black;
+}
+#moving{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
