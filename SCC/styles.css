@@ -1,6 +1,6 @@
 .container {
     width: 900px;
-    height: auto;
+    height: 700px;
     background: #e1e1e1;
     padding: 20px 0px;
     overflow: auto;
@@ -47,5 +47,8 @@
  background-position:-240px -1px;
 }
 .enable {
+    background-color:brown;
+}
+.holder {
     background-color: brown;
 }

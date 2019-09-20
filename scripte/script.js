@@ -1,3 +1,8 @@
-$(".block").click(function(){
-        $(this).css('background-color','grey' );
-});
+$( function() {
+        $( "#moving" ).sortable();
+        $( "#moving" ).disableSelection();
+      } );
+      $('.block').click(function(){
+        console.log(this);
+        $(this).toggleClass('enable');
+      });
