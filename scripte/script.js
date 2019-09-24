@@ -7,6 +7,7 @@ $('.block').click(function () {
   } else {
     $('.button').attr('disabled', true);
   }
+
 });
 $('.button').click(function () {
   $('.enable').remove();
@@ -18,6 +19,13 @@ $('.button2').click(function () {
 
 $('.button3').click(function () {
   $('.block').removeClass('bigsize');
+});
+
+$(function () {
+  $("#moving").sortable({
+    placeholder: "holder"
+  });
+  $("#moving").disableSelection();
 });
 
 $('.span1').click(function () {
@@ -48,14 +56,5 @@ $('.span2').click(function () {
     }
     return 0;
   });
-  $target.html('');
   $target.append(sort);
 });
-
-$(function () {
-  $("#moving").sortable({
-    placeholder: "holder"
-  });
-  $(".block").disableSelection();
-});
-

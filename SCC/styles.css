@@ -32,12 +32,12 @@
     margin-left: 10px;
 }
 .button2 {
- float: right;
- margin-right: 30px;
- width: 18px;
- height: 18px;
- background-image: url("https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
- background-position: -216px -1px;
+    float: right;
+    margin-right: 30px;
+    width: 18px;
+    height: 18px;
+    background-image: url("https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
+    background-position: -216px -1px;
 }
 .button3 {
  float: right;
@@ -73,15 +73,12 @@
     margin: 10px;
     text-align: center;
 }
-.bigsize .holder {
-    float: left;
-    background-color:#937A66;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    text-align: center;
-    border:1px dashed black;
+
+.bigsize.enable{
+    background-color:brown;
 }
+
+
 #moving{
     display: flex;
     flex-wrap: wrap;
